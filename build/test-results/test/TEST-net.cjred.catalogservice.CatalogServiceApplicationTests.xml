@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.cjred.catalogservice.CatalogServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-16T03:54:55.029Z" hostname="LM-16004575-00.local" time="0.885">
+  <properties/>
+  <testcase name="contextLoads()" classname="net.cjred.catalogservice.CatalogServiceApplicationTests" time="0.331"/>
+  <system-out><![CDATA[12:54:55.085 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [net.cjred.catalogservice.CatalogServiceApplicationTests]: CatalogServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:54:55.124 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration net.cjred.catalogservice.CatalogServiceApplication for test class net.cjred.catalogservice.CatalogServiceApplicationTests
+12:54:55.152 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [net.cjred.catalogservice.CatalogServiceApplicationTests]: CatalogServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:54:55.153 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration net.cjred.catalogservice.CatalogServiceApplication for test class net.cjred.catalogservice.CatalogServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-09-16T12:54:55.266+09:00  INFO 92515 --- [catalog-service] [    Test worker] n.c.c.CatalogServiceApplicationTests     : Starting CatalogServiceApplicationTests using Java 21.0.4 with PID 92515 (started by junggelee in /Users/junggelee/Documents/GitHub/catalog-service)
+2026-09-16T12:54:55.267+09:00  INFO 92515 --- [catalog-service] [    Test worker] n.c.c.CatalogServiceApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2026-09-16T12:54:55.578+09:00  INFO 92515 --- [catalog-service] [    Test worker] n.c.c.CatalogServiceApplicationTests     : Started CatalogServiceApplicationTests in 0.402 seconds (process running for 0.867)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/junggelee/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.18.11/82212e5b3633e7a65fca8bec525762cfb6c9bae4/byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
