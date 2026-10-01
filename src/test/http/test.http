@@ -1,0 +1,24 @@
+### POST request to example server
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "isbn": "1234567891",
+  "title": "Northern Lights",
+  "author": "Lyra Silverstar",
+  "price": 9.90
+}
+
+### GET
+GET localhost:8080/books/1234567891
+
+### POST exception
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "isbn": "a1234567891",
+  "title": "",
+  "author": "Lyra Silverstar",
+  "price": 9.90
+}

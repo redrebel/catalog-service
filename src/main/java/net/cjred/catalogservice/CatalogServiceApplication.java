@@ -1,4 +1,4 @@
-package net.cjred.catalog_service;
+package net.cjred.catalogservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

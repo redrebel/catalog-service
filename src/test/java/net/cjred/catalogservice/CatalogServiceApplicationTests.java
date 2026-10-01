@@ -1,4 +1,4 @@
-package net.cjred.catalog_service;
+package net.cjred.catalogservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
