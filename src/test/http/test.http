@@ -10,6 +10,9 @@ Content-Type: application/json
 }
 
 ### GET
+GET localhost:8080/books
+
+### GET
 GET localhost:8080/books/1234567891
 
 ### POST exception
@@ -22,3 +25,12 @@ Content-Type: application/json
   "author": "Lyra Silverstar",
   "price": 9.90
 }
+
+
+### home
+GET localhost:8080
+###
+
+### config refresh
+POST localhost:8080/actuator/refresh
+###
