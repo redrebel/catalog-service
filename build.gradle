@@ -49,6 +49,7 @@ dependencyManagement {
 
 tasks.named('test') {
     useJUnitPlatform()
+    systemProperty 'spring.cloud.config.enabled', 'false'
 }
 
 bootRun{
